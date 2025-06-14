@@ -57,11 +57,33 @@
                     <div class="col-12">
                         <div class="mobile-nav-toggler" style="margin-top: 5%; color: darkblue;"><i
                                 class="fas fa-bars"></i></div>
+
+                        <style>
+                            .logosimg {
+                                height: 70px;
+                                width: 100px;
+                            }
+
+                            @media (max-width: 768px) {
+                                .logosimg {
+                                    height: 50px;
+                                    width: 70px;
+                                }
+                                .logo{
+                                    display: flex;
+                                    align-items: center;
+                                }
+                             
+                            }
+                        </style>
+
                         <div class="menu-wrap">
                             <nav class="menu-nav">
-                                <div class="logo" style="display: flex; align-items: end; gap: 5px;">
-                                    <img src="https://i.pinimg.com/736x/3f/e5/be/3fe5beee21bd1e45d20fb26d00afc487.jpg"
-                                        height="70" width="100" alt="Logo" />
+                                <div >
+                                    <img class="logosimg"
+                                        src="https://i.pinimg.com/736x/3f/e5/be/3fe5beee21bd1e45d20fb26d00afc487.jpg"
+                                        alt="Logo" />
+                                        <p style="font-weight: bold;">Karimun Investments</p>
 
                                 </div>
                                 <div class="navbar-wrap main-menu d-none d-lg-flex">
@@ -124,7 +146,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
                         <div class="banner-content-three">
-                            <h2 class="title wow fadeInUp" data-wow-delay=".2s">Empowering Growth Through &amp;
+                            <h2 class="title wow fadeInUp" style="margin-top: 70px;" data-wow-delay=".2s">Empowering Growth Through &amp;
                                 Global Investment Opportunities.</h2>
                             <p class="wow fadeInUp" data-wow-delay=".4s">To lead with integrity and foresight, driving
                                 strategic investments that generate sustainable value, empower economic growth, and
@@ -409,33 +431,34 @@
         <!-- team-area -->
         <!-- area-bg -->
         <style>
-             .arrange {
-        display: flex;
-        padding-left: 100px;
-        height: 400px;
-        justify-content: space-between;
-        align-items: center;
-        gap: 20px;
-    }
+            .arrange {
+                display: flex;
+                padding-left: 100px;
+                height: 400px;
+                justify-content: space-between;
+                align-items: center;
+                gap: 20px;
+            }
 
-    .set{
-        width: 45%;
-    }
+            .set {
+                width: 45%;
+            }
 
-    @media (max-width: 768px) {
-        .arrange {
-         padding-left: 15px;
-         gap: 30px;
-             height: auto;
-             padding: 25px;
-            flex-direction: column;
-                    align-items: flex-start; /* optional, keeps items aligned to left */
-        }
+            @media (max-width: 768px) {
+                .arrange {
+                    padding-left: 15px;
+                    gap: 30px;
+                    height: auto;
+                    padding: 25px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    /* optional, keeps items aligned to left */
+                }
 
-         .set{
-        width: 100%;
-    }
-    }
+                .set {
+                    width: 100%;
+                }
+            }
         </style>
         <div class="arrange" data-background="assets/shape/area.jpg">
             <div style="width: auto;">
@@ -445,7 +468,8 @@
                         width="50" alt="image" />
                     <p style="font-weight: bold; color: black;">Our Mission</p>
                 </div>
-                <p style="margin-top: 15px;" class="set">To deliver world-class financial expertise, customized investment strategies, and exceptional client
+                <p style="margin-top: 15px;" class="set">To deliver world-class financial expertise, customized
+                    investment strategies, and exceptional client
                     service while upholding the highest standards of integrity and professionalism.</p>
             </div>
 
@@ -458,7 +482,8 @@
                         width="50" alt="image" />
                     <p style="font-weight: bold; color: black;">Our Vission</p>
                 </div>
-                <p style="margin-top: 15px;" class="set">To be a globally recognized leader in innovative investment solutions, empowering businesses and
+                <p style="margin-top: 15px;" class="set">To be a globally recognized leader in innovative investment
+                    solutions, empowering businesses and
                     individuals to achieve sustainable growth and success.</p>
             </div>
 
